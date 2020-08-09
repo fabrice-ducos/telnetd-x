@@ -35,3 +35,20 @@ And then add the following dependency:
     </dependency>
 
 ```
+
+**Update 2.2.0**
+
+The build script (`pom.xml`) was updated for modern Java implementations (7 and above).
+
+Configuration and launcher scripts are provided to test the code out of the box.
+
+*How to get started*
+
+- Edit the `log4j.properties` to change the logging configuration if needed
+- Edit the `telnetd.properties` to change the configuration of the telnet server if needed
+- build the project: `mvn package`
+- launch the server: ./start_telnetd.sh
+(a Windows .bat script will come later)
+
+
+
